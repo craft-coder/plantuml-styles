@@ -1,0 +1,24 @@
+@startuml Class Example
+
+class Class5 {
+    + void hello()
+    - void hi()
+    # void goodMorning(String name)
+    ~ String name_
+}
+
+Class1 <|-- Class2
+Class1 <|-- Class3
+Class4 o-- Class5
+Class01 <|-- Class02
+Class03 *-- Class04
+
+abstract        abstract
+abstract class  "abstract class"
+annotation      annotation
+class           class
+entity          entity
+enum            enum
+interface       interface
+
+@enduml

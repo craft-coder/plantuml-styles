@@ -1,0 +1,15 @@
+@startuml Class Example
+
+class Person {
+    + void hello()
+    ~ String name_
+}
+
+class Student {
+    - void hi()
+    # void goodMorning(String name)
+    ~ String id_
+}
+
+Person <|-- Student
+@enduml

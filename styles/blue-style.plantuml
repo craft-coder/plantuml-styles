@@ -1,0 +1,83 @@
+' Color schema
+!$primaryColor = "#e0f9ff"
+!$secondaryColor = "#cccccc"
+
+' General settings
+hide empty methods
+hide empty attributes
+skinparam {
+    DefaultFontName Helvetica 
+    RoundCorner 5
+    Shadowing false
+
+    ' Title Styling
+    TitleFontSize 24
+    TitleFontStyle Bold
+
+    ' Class Diagrams
+    CircledCharacterRadius 5
+    CircledCharacterFontSize 8
+    CircledCharacterFontColor Black
+    Class {
+        FontSize 16
+        FontStyle Bold
+        BackgroundColor $primaryColor
+        BorderThickness 2
+        BorderColor Black
+        ArrowThickness 3
+        ArrowColor Black
+        AttributeIconSize 9
+    }
+
+    ' Sequence Diagrams
+    Sequence {
+        MessageAlign Center
+        FontSize 16
+        FontStyle Bold
+        ParticipantBackgroundColor $primaryColor
+        ParticipantBorderColor Black
+        ParticipantFontStyle Bold
+        BorderColor Black
+        ArrowThickness 1.1
+        ArrowColor Black
+        LifeLineBorderThickness 1
+        LifeLineBorderColor Black
+        ActorBackgroundColor $primaryColor
+        ActorBorderColor Black
+        ActorBorderThickness 2
+        ActorFontStyle Bold
+    }
+
+    ' UseCase Diagrams
+    UseCase {
+        FontSize 16
+        FontStyle Bold
+        BorderColor Black
+        ArrowThickness 1.1
+        ArrowColor Black
+        ActorBackgroundColor $primaryColor
+        BackgroundColor $primaryColor
+        ActorBorderColor Black
+        ActorBorderThickness 2
+        ActorFontStyle Bold
+    }
+
+    ' Notes
+    Note {
+        BackgroundColor $secondaryColor
+        BorderThickness 1
+        BorderColor White
+        FontSize 10
+    }
+}
+
+' title Class Example
+' !include ../examples/class-example.plantuml
+
+' title Sequence Example
+' !include ../examples/sequence-example.plantuml
+
+' title UseCase Example
+' !include ../examples/usecase-example.plantuml
+
+
