@@ -27,3 +27,8 @@
 !include ../../styles/modern-style.plantuml
 !include ../diagrams/component.plantuml
 @enduml
+
+@startuml State
+!include ../../styles/modern-style.plantuml
+!include ../diagrams/state.plantuml
+@enduml

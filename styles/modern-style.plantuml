@@ -80,6 +80,15 @@ skinparam {
     InterfaceBackgroundColor $primaryColor
     InterfaceBorderColor Black
 
+    ' State Diagrams
+    State {
+        BorderColor Black
+        ArrowThickness 1.1
+        ArrowColor Black
+        BackgroundColor $primaryColor
+    }
+    FrameBackgroundColor $primaryColor
+
     ' Notes
     Note {
         BackgroundColor $secondaryColor
@@ -103,5 +112,8 @@ skinparam {
 
 ' title Component Example
 ' !include ../examples/diagrams/component.plantuml
+
+' title State Example
+' !include ../examples/diagrams/state.plantuml
 
 

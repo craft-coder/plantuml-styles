@@ -21,3 +21,7 @@ Here you can find some examples when including the `modern-style.plantuml` file.
 ## Component Diagram
 
 ![Component](Component.png)
+
+## State Diagram
+
+![State](State.png)
