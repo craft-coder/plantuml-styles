@@ -67,11 +67,7 @@ skinparam {
         BorderColor Black
         ArrowThickness 1.1
         ArrowColor Black
-        ActorBackgroundColor $primaryColor
         BackgroundColor $primaryColor
-        ActorBorderColor Black
-        ActorBorderThickness 2
-        ActorFontStyle Bold
     }
 
     ' Notes
@@ -94,5 +90,8 @@ skinparam {
 
 title Activity Example
 !include ../examples/diagrams/activity.plantuml
+
+' title Component Example
+' !include ../examples/diagrams/component.plantuml
 
 
