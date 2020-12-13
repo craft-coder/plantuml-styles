@@ -1,5 +1,4 @@
 @startuml State Example
-@startuml State Example
 actor actor
 agent agent
 artifact artifact
