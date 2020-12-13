@@ -1,19 +1,19 @@
 @startuml Class
-!include ../../styles/blue-style.plantuml
+!include ../../styles/modern-style.plantuml
 !include ../diagrams/class.plantuml
 @enduml
 
 @startuml Class2
-!include ../../styles/blue-style.plantuml
+!include ../../styles/modern-style.plantuml
 !include ../diagrams/class2.plantuml
 @enduml
 
 @startuml Sequence
-!include ../../styles/blue-style.plantuml
+!include ../../styles/modern-style.plantuml
 !include ../diagrams/sequence.plantuml
 @enduml
 
 @startuml UseCase
-!include ../../styles/blue-style.plantuml
+!include ../../styles/modern-style.plantuml
 !include ../diagrams/usecase.plantuml
 @enduml

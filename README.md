@@ -1,11 +1,11 @@
 # 🌻 PlantUML Styles
 
 This repository includes styles to be used in PlantUML diagrams.
-Check out the examples (e.g. [blue-style examples](examples/blue-style/readme.md)).
+Check out the examples (e.g. [modern-style examples](examples/modern-style/readme.md)).
 
 You'll get such diagrams by default:
 
-![Class Example](examples/blue-style/Class2.png)
+![Class Example](examples/modern-style/Class2.png)
 
 ## Usage
 
@@ -14,7 +14,7 @@ To use a certain style, include a style-file (from the `styles` directory of thi
 ```
 @startuml Style Usage Example
 
-!include styles/blue-style.plantuml
+!include styles/modern-style.plantuml
 
 class Example {
     + void hello()

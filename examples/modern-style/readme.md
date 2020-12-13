@@ -1,6 +1,6 @@
-# Blue Style Examples
+# Modern Style Examples
 
-Here you can find some examples when including the `blue-style.plantuml` file.
+Here you can find some examples when including the `modern-style.plantuml` file.
 
 ## Class Diagram
 
