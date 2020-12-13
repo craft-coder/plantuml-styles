@@ -1,3 +1,7 @@
+' This is a plantuml style file
+' To use this style include it into your plantuml diagrams, e.g.:
+' !include modern-style.plantuml
+
 ' Color schema
 !$primaryColor = "#e0f9ff"
 !$secondaryColor = "#cccccc"
