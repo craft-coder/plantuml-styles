@@ -5,6 +5,7 @@ Here you can find some examples when including the `modern-style.plantuml` file.
 ## Class Diagram
 
 ![Class](Class.png)
+![Class2](Class2.png)
 
 ## Sequence Diagram
 
@@ -25,3 +26,8 @@ Here you can find some examples when including the `modern-style.plantuml` file.
 ## State Diagram
 
 ![State](State.png)
+
+## Deployment Diagram
+
+![Deployment](Deployment.png)
+![Deployment2](Deployment2.png)
