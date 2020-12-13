@@ -62,6 +62,18 @@ skinparam {
         ActorFontStyle Bold
     }
 
+    ' Activity Diagrams
+    Activity {
+        BorderColor Black
+        ArrowThickness 1.1
+        ArrowColor Black
+        ActorBackgroundColor $primaryColor
+        BackgroundColor $primaryColor
+        ActorBorderColor Black
+        ActorBorderThickness 2
+        ActorFontStyle Bold
+    }
+
     ' Notes
     Note {
         BackgroundColor $secondaryColor
@@ -72,12 +84,15 @@ skinparam {
 }
 
 ' title Class Example
-' !include ../examples/class-example.plantuml
+' !include ../examples/diagrams/class.plantuml
 
 ' title Sequence Example
-' !include ../examples/sequence-example.plantuml
+' !include ../examples/diagrams/sequence.plantuml
 
 ' title UseCase Example
-' !include ../examples/usecase-example.plantuml
+' !include ../examples/diagrams/usecase.plantuml
+
+title Activity Example
+!include ../examples/diagrams/activity.plantuml
 
 

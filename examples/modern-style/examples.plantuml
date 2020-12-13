@@ -17,3 +17,8 @@
 !include ../../styles/modern-style.plantuml
 !include ../diagrams/usecase.plantuml
 @enduml
+
+@startuml Activity
+!include ../../styles/modern-style.plantuml
+!include ../diagrams/activity.plantuml
+@enduml

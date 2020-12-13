@@ -13,3 +13,7 @@ Here you can find some examples when including the `modern-style.plantuml` file.
 ## UseCase Diagram
 
 ![UseCase](UseCase.png)
+
+## Activity Diagram
+
+![Activity](Activity.png)
