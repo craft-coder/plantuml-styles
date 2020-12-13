@@ -25,3 +25,13 @@ class Example {
 
 @enduml
 ```
+
+## Customization
+
+The styles use variables, e.g. for defining the primary color.
+You can change these variables for a customization of your plantuml style.
+
+```
+' Color schema
+!$primaryColor = "#ffd1fb"
+```
