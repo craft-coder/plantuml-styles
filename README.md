@@ -7,7 +7,7 @@ You'll get such diagrams by default:
 
 ![Class Example](examples/modern-style/Class2.png)
 
-## Usage
+## 🛴 Usage
 
 To use a certain style, include a style-file (from the `styles` directory of this repository) at the beginning of `plantuml` file:
 
@@ -26,7 +26,7 @@ class Example {
 @enduml
 ```
 
-## Customization
+## 🛠️ Customization
 
 The styles use variables, e.g. for defining the primary color.
 You can change these variables for a customization of your plantuml style.
