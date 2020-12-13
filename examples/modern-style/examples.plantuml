@@ -32,3 +32,13 @@
 !include ../../styles/modern-style.plantuml
 !include ../diagrams/state.plantuml
 @enduml
+
+@startuml Deployment
+!include ../../styles/modern-style.plantuml
+!include ../diagrams/deployment.plantuml
+@enduml
+
+@startuml Deployment2
+!include ../../styles/modern-style.plantuml
+!include ../diagrams/deployment2.plantuml
+@enduml

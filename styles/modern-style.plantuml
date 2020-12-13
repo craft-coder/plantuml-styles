@@ -87,7 +87,44 @@ skinparam {
         ArrowColor Black
         BackgroundColor $primaryColor
     }
+
+    ' Deployment Elements
     FrameBackgroundColor $primaryColor
+    FrameBorderColor Black
+    AgentBackgroundColor $primaryColor
+    AgentBorderColor Black
+    ArtifactBackgroundColor $primaryColor
+    ArtifactBorderColor Black
+    BoundaryBackgroundColor $primaryColor
+    BoundaryBorderColor Black
+    CardBackgroundColor $primaryColor
+    CardBorderColor Black
+    CloudBackgroundColor $primaryColor
+    CloudBorderColor Black
+    CollectionsBackgroundColor $primaryColor
+    CollectionsBorderColor Black
+    ControlBackgroundColor $primaryColor
+    ControlBorderColor Black
+    DatabaseBackgroundColor $primaryColor
+    DatabaseBorderColor Black
+    EntityBackgroundColor $primaryColor
+    EntityBorderColor Black
+    FileBackgroundColor $primaryColor
+    FileBorderColor Black
+    FolderBackgroundColor $primaryColor
+    FolderBorderColor Black
+    NodeBackgroundColor $primaryColor
+    NodeBorderColor Black
+    PackageBackgroundColor $primaryColor
+    PackageBorderColor Black
+    QueueBackgroundColor $primaryColor
+    QueueBorderColor Black
+    StackBackgroundColor $primaryColor
+    StackBorderColor Black
+    RectangleBackgroundColor $primaryColor
+    RectangleBorderColor Black
+    StorageBackgroundColor $primaryColor
+    StorageBorderColor Black
 
     ' Notes
     Note {
@@ -115,5 +152,8 @@ skinparam {
 
 ' title State Example
 ' !include ../examples/diagrams/state.plantuml
+
+' title Deployment Example
+' !include ../examples/diagrams/deployment.plantuml
 
 
