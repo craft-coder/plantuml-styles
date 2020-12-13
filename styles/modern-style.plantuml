@@ -101,7 +101,7 @@ skinparam {
 ' title Activity Example
 ' !include ../examples/diagrams/activity.plantuml
 
-title Component Example
-!include ../examples/diagrams/component.plantuml
+' title Component Example
+' !include ../examples/diagrams/component.plantuml
 
 
