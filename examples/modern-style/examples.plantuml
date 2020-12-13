@@ -22,3 +22,8 @@
 !include ../../styles/modern-style.plantuml
 !include ../diagrams/activity.plantuml
 @enduml
+
+@startuml Component
+!include ../../styles/modern-style.plantuml
+!include ../diagrams/component.plantuml
+@enduml

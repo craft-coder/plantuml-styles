@@ -70,6 +70,16 @@ skinparam {
         BackgroundColor $primaryColor
     }
 
+    ' Component Diagrams
+    Component {
+        BorderColor Black
+        ArrowThickness 1.1
+        ArrowColor Black
+        BackgroundColor $primaryColor
+    }
+    InterfaceBackgroundColor $primaryColor
+    InterfaceBorderColor Black
+
     ' Notes
     Note {
         BackgroundColor $secondaryColor
@@ -88,10 +98,10 @@ skinparam {
 ' title UseCase Example
 ' !include ../examples/diagrams/usecase.plantuml
 
-title Activity Example
-!include ../examples/diagrams/activity.plantuml
+' title Activity Example
+' !include ../examples/diagrams/activity.plantuml
 
-' title Component Example
-' !include ../examples/diagrams/component.plantuml
+title Component Example
+!include ../examples/diagrams/component.plantuml
 
 

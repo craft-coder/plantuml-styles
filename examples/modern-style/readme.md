@@ -17,3 +17,7 @@ Here you can find some examples when including the `modern-style.plantuml` file.
 ## Activity Diagram
 
 ![Activity](Activity.png)
+
+## Component Diagram
+
+![Component](Component.png)
