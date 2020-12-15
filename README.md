@@ -35,3 +35,7 @@ You can change these variables for a customization of your plantuml style.
 ' Color schema
 !$primaryColor = "#ffd1fb"
 ```
+
+## 🖉 Acknowledgement
+
+The examples used to illustrate the styles are heavily based on the examples provided by [PlantUML](https://plantuml.com/de/).
