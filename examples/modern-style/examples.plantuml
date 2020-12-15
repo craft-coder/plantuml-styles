@@ -42,3 +42,8 @@
 !include ../../styles/modern-style.plantuml
 !include ../diagrams/deployment2.plantuml
 @enduml
+
+@startuml Object
+!include ../../styles/modern-style.plantuml
+!include ../diagrams/object.plantuml
+@enduml

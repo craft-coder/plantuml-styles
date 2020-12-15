@@ -130,6 +130,13 @@ skinparam {
     StorageBackgroundColor $primaryColor
     StorageBorderColor Black
 
+    ' Objects 
+    Object {
+        BackgroundColor $primaryColor
+        BorderColor Black
+        FontStyle Bold
+    }
+
     ' Notes
     Note {
         BackgroundColor $secondaryColor
@@ -159,5 +166,8 @@ skinparam {
 
 ' title Deployment Example
 ' !include ../examples/diagrams/deployment.plantuml
+
+' title Object Example
+' !include ../examples/diagrams/object.plantuml
 
 

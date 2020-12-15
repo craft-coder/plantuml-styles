@@ -1,0 +1,27 @@
+@startuml Object Example
+
+object user
+
+user : name = "Dummy"
+user : id = 123
+
+map "map: Map<Integer, String>" as users {
+ 1 => Alice
+ 2 => Bob
+ 3 => Charlie
+}
+
+object London
+object Washington
+object Berlin
+object NewYork
+
+map CapitalCity {
+ UK *-> London
+ USA *--> Washington
+ Germany *---> Berlin
+}
+
+NewYork --> CapitalCity::USA
+
+@enduml

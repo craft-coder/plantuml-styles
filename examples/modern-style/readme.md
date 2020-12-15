@@ -31,3 +31,6 @@ Here you can find some examples when including the `modern-style.plantuml` file.
 
 ![Deployment](Deployment.png)
 ![Deployment2](Deployment2.png)
+## Object Diagram
+
+![Deployment](Object.png)
