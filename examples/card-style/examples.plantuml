@@ -1,54 +1,54 @@
 @startuml Class
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/class.plantuml
 @enduml
 
 @startuml Class2
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/class2.plantuml
 @enduml
 
 @startuml Sequence
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/sequence.plantuml
 @enduml
 
 @startuml UseCase
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/usecase.plantuml
 @enduml
 
 @startuml Activity
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/activity.plantuml
 @enduml
 
 @startuml Component
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/component.plantuml
 @enduml
 
 @startuml State
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/state.plantuml
 @enduml
 
 @startuml Deployment
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/deployment.plantuml
 @enduml
 
 @startuml Deployment2
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/deployment2.plantuml
 @enduml
 
 @startuml Object
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/object.plantuml
 @enduml
 
 @startuml Timing
-!include ../../styles/modern-style.plantuml
+!include ../../styles/card-style.plantuml
 !include ../diagrams/timing.plantuml
 @enduml

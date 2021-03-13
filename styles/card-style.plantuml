@@ -3,7 +3,7 @@
 ' !include modern-style.plantuml
 
 ' Color schema
-!$primaryColor = "#e0f9ff"
+!$primaryColor = "#E6E6E63F"
 !$secondaryColor = "#cccccc"
 
 ' General settings
@@ -11,7 +11,7 @@ hide empty methods
 hide empty attributes
 skinparam {
     DefaultFontName Helvetica 
-    RoundCorner 5
+    RoundCorner 14
     Shadowing false
 
     ' Title Styling
@@ -19,17 +19,21 @@ skinparam {
     TitleFontStyle Bold
 
     ' Class Diagrams
+    minClassWidth 125
+    maxClassWidth 300
+    nodesep 30
+    ranksep 30
     CircledCharacterRadius 5
     CircledCharacterFontSize 8
-    CircledCharacterFontColor Black
+    CircledCharacterFontColor Gray
     Class {
         FontSize 16
-        FontStyle Bold
+        ' FontStyle Bold
         BackgroundColor $primaryColor
-        BorderThickness 2
-        BorderColor Black
-        ArrowThickness 3
-        ArrowColor Black
+        BorderThickness 0.5
+        BorderColor Gray
+        ArrowThickness 2
+        ArrowColor Gray
         AttributeIconSize 9
     }
 
@@ -39,15 +43,15 @@ skinparam {
         FontSize 16
         FontStyle Bold
         ParticipantBackgroundColor $primaryColor
-        ParticipantBorderColor Black
+        ParticipantBorderColor Gray
         ParticipantFontStyle Bold
-        BorderColor Black
+        BorderColor Gray
         ArrowThickness 1.1
-        ArrowColor Black
+        ArrowColor Gray
         LifeLineBorderThickness 1
-        LifeLineBorderColor Black
+        LifeLineBorderColor Gray
         ActorBackgroundColor $primaryColor
-        ActorBorderColor Black
+        ActorBorderColor Gray
         ActorBorderThickness 2
         ActorFontStyle Bold
     }
@@ -56,84 +60,84 @@ skinparam {
     UseCase {
         FontSize 16
         FontStyle Bold
-        BorderColor Black
+        BorderColor Gray
         ArrowThickness 1.1
-        ArrowColor Black
+        ArrowColor Gray
         ActorBackgroundColor $primaryColor
         BackgroundColor $primaryColor
-        ActorBorderColor Black
+        ActorBorderColor Gray
         ActorBorderThickness 2
         ActorFontStyle Bold
     }
 
     ' Activity Diagrams
     Activity {
-        BorderColor Black
+        BorderColor Gray
         ArrowThickness 1.1
-        ArrowColor Black
+        ArrowColor Gray
         BackgroundColor $primaryColor
     }
 
     ' Component Diagrams
     Component {
-        BorderColor Black
+        BorderColor Gray
         ArrowThickness 1.1
-        ArrowColor Black
+        ArrowColor Gray
         BackgroundColor $primaryColor
     }
     InterfaceBackgroundColor $primaryColor
-    InterfaceBorderColor Black
+    InterfaceBorderColor Gray
 
     ' State Diagrams
     State {
-        BorderColor Black
+        BorderColor Gray
         ArrowThickness 1.1
-        ArrowColor Black
+        ArrowColor Gray
         BackgroundColor $primaryColor
     }
 
     ' Deployment Elements
     FrameBackgroundColor $primaryColor
-    FrameBorderColor Black
+    FrameBorderColor Gray
     AgentBackgroundColor $primaryColor
-    AgentBorderColor Black
+    AgentBorderColor Gray
     ArtifactBackgroundColor $primaryColor
-    ArtifactBorderColor Black
+    ArtifactBorderColor Gray
     BoundaryBackgroundColor $primaryColor
-    BoundaryBorderColor Black
+    BoundaryBorderColor Gray
     CardBackgroundColor $primaryColor
-    CardBorderColor Black
+    CardBorderColor Gray
     CloudBackgroundColor $primaryColor
-    CloudBorderColor Black
+    CloudBorderColor Gray
     CollectionsBackgroundColor $primaryColor
-    CollectionsBorderColor Black
+    CollectionsBorderColor Gray
     ControlBackgroundColor $primaryColor
-    ControlBorderColor Black
+    ControlBorderColor Gray
     DatabaseBackgroundColor $primaryColor
-    DatabaseBorderColor Black
+    DatabaseBorderColor Gray
     EntityBackgroundColor $primaryColor
-    EntityBorderColor Black
+    EntityBorderColor Gray
     FileBackgroundColor $primaryColor
-    FileBorderColor Black
+    FileBorderColor Gray
     FolderBackgroundColor $primaryColor
-    FolderBorderColor Black
+    FolderBorderColor Gray
     NodeBackgroundColor $primaryColor
-    NodeBorderColor Black
+    NodeBorderColor Gray
     PackageBackgroundColor $primaryColor
-    PackageBorderColor Black
+    PackageBorderColor Gray
     QueueBackgroundColor $primaryColor
-    QueueBorderColor Black
+    QueueBorderColor Gray
     StackBackgroundColor $primaryColor
-    StackBorderColor Black
+    StackBorderColor Gray
     RectangleBackgroundColor $primaryColor
-    RectangleBorderColor Black
+    RectangleBorderColor Gray
     StorageBackgroundColor $primaryColor
-    StorageBorderColor Black
+    StorageBorderColor Gray
 
     ' Objects 
     Object {
         BackgroundColor $primaryColor
-        BorderColor Black
+        BorderColor Gray
         FontStyle Bold
     }
 

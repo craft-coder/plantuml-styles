@@ -7,6 +7,8 @@ class Class5 {
     ~ String name_
 }
 
+class AClassWithAVeryLongName1234567890
+
 Class1 <|-- Class2
 Class1 <|-- Class3
 Class4 o-- Class5

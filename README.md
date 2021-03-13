@@ -5,7 +5,8 @@ Check out the examples (e.g. [modern-style examples](examples/modern-style/readm
 
 You'll get such diagrams by default:
 
-![Class Example](examples/modern-style/Class2.png)
+![Class Example](examples/modern-style/Class2.png)  
+![Class Example](examples/card-style/Class2.png)
 
 ## 🛴 Usage
 
