@@ -1,6 +1,6 @@
-# Modern Style Examples
+# Card Style Examples
 
-Here you can find some examples when including the `modern-style.plantuml` file.
+Here you can find some examples when including the `card-style.plantuml` file.
 
 ## Class Diagram
 
