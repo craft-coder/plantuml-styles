@@ -154,7 +154,7 @@ skinparam {
     }
 }
 
-!include ../examples/diagrams/class.plantuml
+' !include ../examples/diagrams/class.plantuml
 ' !include ../examples/diagrams/sequence.plantuml
 ' !include ../examples/diagrams/usecase.plantuml
 ' !include ../examples/diagrams/activity.plantuml
