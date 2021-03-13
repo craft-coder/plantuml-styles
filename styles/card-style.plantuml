@@ -11,6 +11,7 @@ hide empty methods
 hide empty attributes
 skinparam {
     DefaultFontName Helvetica 
+    defaultTextAlignment center
     RoundCorner 14
     Shadowing false
 
